@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the UIT News feature.
+ */
+
+include_once 'uit_news.features.inc';
