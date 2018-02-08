@@ -256,6 +256,11 @@ function uit_news_views_default_views() {
   $handler->display->display_options['filters']['field_preview_mode_value']['value'] = array(
     1 => '1',
   );
+  /* Filter criterion: Content: Promoted to front page */
+  $handler->display->display_options['filters']['promote']['id'] = 'promote';
+  $handler->display->display_options['filters']['promote']['table'] = 'node';
+  $handler->display->display_options['filters']['promote']['field'] = 'promote';
+  $handler->display->display_options['filters']['promote']['value'] = '1';
 
   /* Display: Featured Event Block */
   $handler = $view->new_display('block', 'Featured Event Block', 'featured_event');
@@ -379,6 +384,11 @@ function uit_news_views_default_views() {
   $handler->display->display_options['filters']['field_preview_mode_value']['value'] = array(
     1 => '1',
   );
+  /* Filter criterion: Content: Promoted to front page */
+  $handler->display->display_options['filters']['promote']['id'] = 'promote';
+  $handler->display->display_options['filters']['promote']['table'] = 'node';
+  $handler->display->display_options['filters']['promote']['field'] = 'promote';
+  $handler->display->display_options['filters']['promote']['value'] = '1';
 
   /* Display: Next 1 news items for home page - Attachment */
   $handler = $view->new_display('attachment', 'Next 1 news items for home page - Attachment', 'attachment_1');
@@ -477,6 +487,11 @@ function uit_news_views_default_views() {
   $handler->display->display_options['filters']['field_preview_mode_value']['value'] = array(
     1 => '1',
   );
+  /* Filter criterion: Content: Promoted to front page */
+  $handler->display->display_options['filters']['promote']['id'] = 'promote';
+  $handler->display->display_options['filters']['promote']['table'] = 'node';
+  $handler->display->display_options['filters']['promote']['field'] = 'promote';
+  $handler->display->display_options['filters']['promote']['value'] = '1';
   $handler->display->display_options['displays'] = array(
     'news' => 'news',
     'default' => 0,
@@ -611,6 +626,11 @@ function uit_news_views_default_views() {
   $handler->display->display_options['filters']['field_preview_mode_value']['value'] = array(
     1 => '1',
   );
+  /* Filter criterion: Content: Promoted to front page */
+  $handler->display->display_options['filters']['promote']['id'] = 'promote';
+  $handler->display->display_options['filters']['promote']['table'] = 'node';
+  $handler->display->display_options['filters']['promote']['field'] = 'promote';
+  $handler->display->display_options['filters']['promote']['value'] = '1';
   $handler->display->display_options['displays'] = array(
     'news' => 'news',
     'default' => 0,
@@ -715,6 +735,11 @@ function uit_news_views_default_views() {
   $handler->display->display_options['filters']['field_preview_mode_value']['value'] = array(
     1 => '1',
   );
+  /* Filter criterion: Content: Promoted to front page */
+  $handler->display->display_options['filters']['promote']['id'] = 'promote';
+  $handler->display->display_options['filters']['promote']['table'] = 'node';
+  $handler->display->display_options['filters']['promote']['field'] = 'promote';
+  $handler->display->display_options['filters']['promote']['value'] = '1';
   $handler->display->display_options['displays'] = array(
     'news' => 'news',
     'default' => 0,

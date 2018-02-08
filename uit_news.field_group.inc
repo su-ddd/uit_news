@@ -21,11 +21,11 @@ function uit_news_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Featured Image',
-    'weight' => '6',
+    'weight' => '5',
     'children' => array(
       0 => 'field_featured_image',
-      1 => 'field_featured_image_caption',
-      2 => 'field_hide_image',
+      1 => 'field_hide_image',
+      2 => 'field_featured_image_caption',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
